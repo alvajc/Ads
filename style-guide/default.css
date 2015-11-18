@@ -1,5 +1,5 @@
 #header {
-  background-color: #0f8e61;
+  background-color: #1b891b;
   margin-top: 20px;
   border-radius: 10px;
   margin-bottom: 50px;
@@ -8,6 +8,12 @@
   color: white;
   font-family: lato; sans-serif;
 }
+#type {
+  padding-top: 20px;
+  padding-right: 40px;
+}
 .font {
   font-size: 100pt;
+  border-bottom-style: solid;
+  border-color: black;
 }
