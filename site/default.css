@@ -18,5 +18,8 @@ body {
 .logos {
   width: 200px;
   height: 200px;
-  margin-right: 0px;
+}
+.ftrhead {
+  color: #53aa00;
+  text-align: center;
 }
