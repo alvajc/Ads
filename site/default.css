@@ -1,9 +1,14 @@
 body {
   font-family: lato, helvetica, sans-serif;
 }
-#name {
+@media screen and (min-width: 568px) {
+        .name {
+    font-size: 100px;
+    }
+}
+.name {
   color: #53aa00;
-  font-size: 50pt;
+  text-align: center;
 }
 .gif {
   width: 350px;
