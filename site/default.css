@@ -1,35 +1,22 @@
 body {
-  font-family: lato; sans-serif;
+  font-family: lato, helvetica, sans-serif;
 }
 #name {
   color: #53aa00;
   font-size: 50pt;
 }
-#ads {
-  color: white;
-  background-color: #53aa00;
-}
-#gif {
+.gif {
   width: 350px;
 }
 #shop {
   color: #53aa00;
   margin: 50px 0px 50px 0px;
 }
-#ralphs {
-  width: 250px;
-  padding-top: 40px;
-  margin-left: 40px;
-}
-#whole {
-  width: 200px;
-}
-#stater {
-  width: 200px;
-}
 #food {
   width: 250px;
 }
-li {
-  display: inline;
+.logos {
+  width: 200px;
+  height: 200px;
+  margin-right: 0px;
 }
