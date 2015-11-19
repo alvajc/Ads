@@ -9,6 +9,27 @@ body {
   color: white;
   background-color: #53aa00;
 }
-img {
+#gif {
   width: 350px;
+}
+#shop {
+  color: #53aa00;
+  margin: 50px 0px 50px 0px;
+}
+#ralphs {
+  width: 250px;
+  padding-top: 40px;
+  margin-left: 40px;
+}
+#whole {
+  width: 200px;
+}
+#stater {
+  width: 200px;
+}
+#food {
+  width: 250px;
+}
+li {
+  display: inline;
 }
