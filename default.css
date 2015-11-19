@@ -13,7 +13,7 @@ body {
 .gif {
   width: 350px;
 }
-#shop {
+.shop {
   color: #53aa00;
   margin: 50px 0px 50px 0px;
 }
@@ -43,4 +43,10 @@ body {
   color: white;
   font-size: 60px;
   margin: 0px;
+}
+.btn.btn-primary {
+  background-color: #53aa00;
+}
+form {
+  padding-bottom: 40px;
 }
