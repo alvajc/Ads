@@ -47,6 +47,12 @@ body {
 .btn.btn-primary {
   background-color: #53aa00;
 }
-form {
-  padding-bottom: 40px;
+#searchpic {
+  background-image: url(images/apple.jpg);
+  margin-top: 40px;
+  height: 400px;
+  margin-bottom: 100px;
+}
+.searchbox {
+  margin-top: 50px;
 }
