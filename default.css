@@ -73,3 +73,18 @@ body {
   font-size: 70px;
   margin-top: 125px;
 }
+#result {
+  color: #151515;
+}
+.resultimage {
+  width: 80px;
+  height: 80px;
+}
+.resultbox {
+  height: 300px;
+  border-style: solid;
+  border-color: #abaaaa;
+  padding: 35px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
