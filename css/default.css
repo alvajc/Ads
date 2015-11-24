@@ -1,0 +1,111 @@
+body {
+  font-family: lato, helvetica, sans-serif;
+}
+@media screen and (min-width: 568px) {
+        .name {
+    font-size: 100px;
+    }
+}
+.name {
+  color: #53aa00;
+  text-align: center;
+}
+.gif {
+  width: 350px;
+}
+.shop {
+  color: #53aa00;
+  margin: 50px 0px 50px 0px;
+}
+#food {
+  width: 250px;
+}
+.logos {
+  width: 200px;
+  height: 200px;
+}
+.ftrhead {
+  color: #53aa00;
+  text-align: center;
+}
+.ftrlist {
+  color: #abaaaa;
+}
+.jumbotron {
+  background-image: url(../images/shopping-cart.jpg);
+  height: 800px;
+}
+#jumbo {
+  background-color: rgba(83,170,0, 0.65);
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 160px;
+}
+@media screen and (min-width: 568px) {
+        .jumbotext {
+    font-size: 80px;
+    }
+}
+.jumbotext {
+  color: white;
+  margin: 0px;
+}
+.btn.btn-primary {
+  background-color: #53aa00;
+}
+#searchpic {
+  background-image: url(../images/apple.jpg);
+  
+  height: 400px;
+  margin-bottom: 100px;
+}
+.searchdiv {
+  margin-top: 100px;
+}
+.searchbox {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#deals {
+  color: #53aa00;
+  font-size: 70px;
+  margin-top: 125px;
+}
+#result {
+  color: #151515;
+}
+.resultimage {
+  width: 80px;
+  height: 80px;
+}
+.resultbox {
+  height: 300px;
+  border-style: solid;
+  border-color: #abaaaa;
+  padding: 35px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.listlogo {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.list {
+  margin-left: 10px;
+ }
+ .shopping {
+  color: #53aa00;
+ }
+ footer {
+  margin-top: 40px;
+  background-color: #53aa00;
+ }
+ .fa {
+  color: white;
+  margin-left: 20px;
+}
