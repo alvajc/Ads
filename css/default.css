@@ -101,11 +101,27 @@ body {
  .shopping {
   color: #53aa00;
  }
- footer {
+ .footer {
   margin-top: 40px;
-  background-color: #53aa00;
- }
- .fa {
-  color: white;
+  margin-bottom: 40px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #53aa00;
+}
+.contact {
+  margin-top: -10px;
+  padding-bottom: 5px;
+}
+ .social {
+  display: inline;
+  color: #53aa00;
   margin-left: 20px;
+  margin-bottom: 20px;
+}
+.plus {
+  color: white;
+}
+.remove {
+  color: #53aa00;
+  float: right;
 }
