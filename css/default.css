@@ -97,6 +97,11 @@ body {
 }
 .list {
   margin-left: 10px;
+  width: 120px;
+ }
+ .text {
+  vertical-align: 4px;
+  margin-left: 5px;
  }
  .shopping {
   color: #53aa00;
@@ -122,6 +127,6 @@ body {
   color: white;
 }
 .remove {
-  color: #53aa00;
+  color: red;
   float: right;
 }
