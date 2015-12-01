@@ -5,6 +5,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
       <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/default.css">
   </head>
   <body>
@@ -81,7 +82,8 @@
     <div class="container"
       <div class="row">
         <div class="col-md-12">
-          <h1 id="signform" class="shop text-center">Sign up for your free account today</h1>
+          <h1 class="shop text-center">Sign up for your free account today</h1>
+          <button id="signform" type="button" class="center-block btn btn-primary">Sign Me Up</button>
         </div>
       </div>
       <div class="row">
@@ -151,7 +153,7 @@
                   <label for="search near">NEAR THIS LOCATION</label>
                   <input type"zipcode" class="form-control" id="nearzip" placeholder="ENTER ZIP CODE">
                 </div>
-                  <button type="submit" class="center-block btn btn-primary">Search Ads</button>
+                  <button id="searchbutton" type="submit" class="center-block btn btn-primary">Search Ads</button>
               </form>
             </div>
           </div>
@@ -161,56 +163,58 @@
   <!--end search-->
 
   <!--begin seach results-->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="shop text-center">We found <span id="result">"2% Milk"</span> in the following ads</h2>
+    <div id="searchresults" class="hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="shop text-center">We found <span id="result">"2% Milk"</span> in the following ads</h2>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="resultbox col-md-2 col-md-offset-3">
-          <img class="resultimage img-responsive center-block" src="images/milk.png">
-          <h4 class="text-center">2% Milk (1 gal.)</h4>
-          <h3 class="text-center">$3.99</h3>
-          <h4 class="text-center">Whole Foods</h4>
-          <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
+        <div class="row">
+          <div class="resultbox col-md-2 col-md-offset-3">
+            <img class="resultimage img-responsive center-block" src="images/milk.png">
+            <h4 class="text-center">2% Milk (1 gal.)</h4>
+            <h3 class="text-center">$3.99</h3>
+            <h4 class="text-center">Whole Foods</h4>
+            <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
+          </div>
+          <div class="resultbox col-md-2">
+            <img class="resultimage img-responsive center-block" src="images/milk.png">
+            <h4 class="text-center">2% Milk (1 gal.)</h4>
+            <h3 class="text-center">$3.79</h3>
+            <h4 class="text-center">Ralph's</h4>
+            <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
+          </div>
+           <div class="resultbox col-md-2">
+            <img class="resultimage img-responsive center-block" src="images/milk.png">
+            <h4 class="text-center">2% Milk (1 gal.)</h4>
+            <h3 class="text-center">$3.59</h3>
+            <h4 class="text-center">Food 4 Less</h4>
+            <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
+          </div>
         </div>
-        <div class="resultbox col-md-2">
-          <img class="resultimage img-responsive center-block" src="images/milk.png">
-          <h4 class="text-center">2% Milk (1 gal.)</h4>
-          <h3 class="text-center">$3.79</h3>
-          <h4 class="text-center">Ralph's</h4>
-          <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
-        </div>
-         <div class="resultbox col-md-2">
-          <img class="resultimage img-responsive center-block" src="images/milk.png">
-          <h4 class="text-center">2% Milk (1 gal.)</h4>
-          <h3 class="text-center">$3.59</h3>
-          <h4 class="text-center">Food 4 Less</h4>
-          <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="resultbox col-md-2 col-md-offset-3">
-          <img class="resultimage img-responsive center-block" src="images/milk.png">
-          <h4 class="text-center">2% Milk (1 gal.)</h4>
-          <h3 class="text-center">$3.79</h3>
-          <h4 class="text-center">Stater Bros.</h4>
-          <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
-        </div>
-        <div class="resultbox col-md-2">
-          <img class="resultimage img-responsive center-block" src="images/milk.png">
-          <h4 class="text-center">2% Milk (1/2 gal.)</h4>
-          <h3 class="text-center">$1.99</h3>
-          <h4 class="text-center">Ralph's</h4>
-          <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
-        </div>
-         <div class="resultbox col-md-2">
-          <img class="resultimage img-responsive center-block" src="images/milk.png">
-          <h4 class="text-center">2% Milk (1/2 gal.)</h4>
-          <h3 class="text-center">$1.89</h3>
-          <h4 class="text-center">Sprouts</h4>
-          <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</i></button>
+        <div class="row">
+          <div class="resultbox col-md-2 col-md-offset-3">
+            <img class="resultimage img-responsive center-block" src="images/milk.png">
+            <h4 class="text-center">2% Milk (1 gal.)</h4>
+            <h3 class="text-center">$3.79</h3>
+            <h4 class="text-center">Stater Bros.</h4>
+            <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
+          </div>
+          <div class="resultbox col-md-2">
+            <img class="resultimage img-responsive center-block" src="images/milk.png">
+            <h4 class="text-center">2% Milk (1/2 gal.)</h4>
+            <h3 class="text-center">$1.99</h3>
+            <h4 class="text-center">Ralph's</h4>
+            <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</button>
+          </div>
+           <div class="resultbox col-md-2">
+            <img class="resultimage img-responsive center-block" src="images/milk.png">
+            <h4 class="text-center">2% Milk (1/2 gal.)</h4>
+            <h3 class="text-center">$1.89</h3>
+            <h4 class="text-center">Sprouts</h4>
+            <button type="submit" class="center-block btn btn-primary"><i class="plus fa fa-plus-circle"></i> Add to list</i></button>
+          </div>
         </div>
       </div>
     </div>
