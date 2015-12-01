@@ -84,10 +84,10 @@
       <div class="row">
         <div class="col-md-12">
           <h1 class="shop text-center">Sign up for your free account today</h1>
-          <button id="signform" type="button" class="center-block btn btn-primary" data-toggle="modal" data-target="#myModal">Sign Me Up</button>
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
+          <button id="signform" type="button" class="center-block btn btn-primary" data-toggle="modal" data-target="#signModal">Sign Me Up</button>
+          <div class="modal fade" id="signModal">
+          <div class="modal-dialog" role="document">
+          <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title" id="myModalLabel">Enter Information</h4>
@@ -137,52 +137,6 @@
         </div>
       </div>
     </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-          <form>
-            <div id="signup" class="hidden">
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="name" class="form-control" id="name" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <label for="Address">Address</label>
-                <input type="address" class="form-control" id="address" placeholder="Address">
-              </div>
-              <div class="form-group">
-                <label for="city">City</label>
-                <input type="city" class="form-control" id="city" placeholder="City">
-              </div>
-              <div class="form-group">
-                <label for="state">State</label>
-                <select class="form-control" id="city">
-                  <option>AZ</option>
-                  <option>CA</option>
-                  <option>OR</option>
-                  <option>TN</option>
-                  <option>WA</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="zipcode">Zip Code</label>
-                <input type="zipcode" class="form-control" id="zipcode" placeholder="Zip Code">
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Password">
-              </div>
-              <button type="submit" class="center-block btn btn-primary">Sign Up</button>
-            </div>
-          </form>
-        </div>
-      </div>
-     </div> 
   <!--end signup-->
 
   <!--begin search-->
@@ -305,7 +259,26 @@
         <div class="col-md-12 text-center">
           <div>
             <button type="submit" class="list btn btn-primary"><i class="plus fa fa-mobile fa-2x"></i><span class="text">Text list</span></button>
-            <button type="submit" class="list btn btn-primary"><i class="fa fa-envelope-o fa-2x"></i><span class="text">Email list</span></button>
+            <button type="submit" class="list btn btn-primary" data-toggle="modal" data-target="#emailModal"><i class="fa fa-envelope-o fa-2x"></i><span class="text">Email list</span></button>
+            <div class="modal fade" id="emailModal">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Email Shopping List</h4>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="name">Enter your email address</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Email list</button>
+            </div>
           </div>
         </div>
       </div>
@@ -339,7 +312,7 @@
         <div class="col-md-12 text-center">
           <div>
             <button type="submit" class="list btn btn-primary"><i class="plus fa fa-mobile fa-2x"></i><span class="text">Text list</span></button>
-            <button type="submit" class="list btn btn-primary"><i class="fa fa-envelope-o fa-2x"></i><span class="text">Email list</span></button>
+            <button type="submit" class="list btn btn-primary" data-toggle="modal" data-target="#emailModal"><i class="fa fa-envelope-o fa-2x"></i><span class="text">Email list</span></button>
           </div>
         </div>
       </div>
@@ -373,7 +346,7 @@
         <div class="col-md-12 text-center">
           <div>
             <button type="submit" class="list btn btn-primary"><i class="plus fa fa-mobile fa-2x"></i><span class="text">Text list</span></button>
-            <button type="submit" class="list btn btn-primary"><i class="fa fa-envelope-o fa-2x"></i><span class="text">Email list</span></button>
+            <button type="submit" class="list btn btn-primary" data-toggle="modal" data-target="#emailModal"><i class="fa fa-envelope-o fa-2x"></i><span class="text">Email list</span></button>
           </div>
         </div>
       </div>
