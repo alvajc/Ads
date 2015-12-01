@@ -1,14 +1,3 @@
-//-------sign up 
-var signUp = document.getElementById('signup');
-
-function showSignUp() {
-  signUp.setAttribute('class', 'show');
-}
-
-var signForm = document.getElementById('signform');
-
-signForm.addEventListener('click', showSignUp, false);
-
 //-----search
 var searchResults = document.getElementById('searchresults')
 

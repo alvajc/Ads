@@ -2,10 +2,11 @@
 <html>
   <head>
     <title>GROCERYads</title>
+      <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
       <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/default.css">
   </head>
   <body>
@@ -83,7 +84,59 @@
       <div class="row">
         <div class="col-md-12">
           <h1 class="shop text-center">Sign up for your free account today</h1>
-          <button id="signform" type="button" class="center-block btn btn-primary">Sign Me Up</button>
+          <button id="signform" type="button" class="center-block btn btn-primary" data-toggle="modal" data-target="#myModal">Sign Me Up</button>
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Enter Information</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Name">
+              </div>
+              <div class="for=group">
+                <label for="Address">Address</label>
+                <input type="address" class="form-control" id="address" placeholder="Address">
+              </div>
+              <div class="form-group">
+                <label for="city">City</label>
+                <input type="city" class="form-control" id="city" placeholder="City">
+              </div>
+              <div class="form-group">
+                <label for="state">State</label>
+                <select class="form-control" id="city">
+                  <option>AZ</option>
+                  <option>CA</option>
+                  <option>OR</option>
+                  <option>TN</option>
+                  <option>WA</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="zipcode">Zip Code</label>
+                <input type="zipcode" class="form-control" id="zipcode" placeholder="Zip Code">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="zipcode" class="form-control" id="zipcode" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="zipcode" class="form-control" id="zipcode" placeholder="Password">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
         </div>
       </div>
       <div class="row">
