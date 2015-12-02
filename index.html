@@ -108,7 +108,7 @@
               </div>
               <div class="form-group">
                 <label for="state">State</label>
-                <select class="form-control" id="city">
+                <select class="form-control" id="state">
                   <option>AZ</option>
                   <option>CA</option>
                   <option>OR</option>
@@ -258,30 +258,32 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <div>
-            <button type="submit" class="list btn btn-primary"><i class="plus fa fa-mobile fa-2x"></i><span class="text">Text list</span></button>
+            <button type="submit" class="list btn btn-primary" data-toggle="modal" data-target="#textModal"><i class="plus fa fa-mobile fa-2x"></i><span class="text">Text list</span></button>
             <button type="submit" class="list btn btn-primary" data-toggle="modal" data-target="#emailModal"><i class="fa fa-envelope-o fa-2x"></i><span class="text">Email list</span></button>
+          </div>
             <div class="modal fade" id="emailModal">
-            <div class="modal-dialog" role="document">
-            <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">Email Shopping List</h4>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="form-group">
-                  <label for="name">Enter your email address</label>
-                  <input type="email" class="form-control" id="email">
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Email list</button>
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Email Shopping List</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="name">Enter your email address</label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Email list</button>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
           <h2 class="shopping text-center">Your Shopping list for</h2>
@@ -311,8 +313,30 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <div>
-            <button type="submit" class="list btn btn-primary"><i class="plus fa fa-mobile fa-2x"></i><span class="text">Text list</span></button>
+            <button type="submit" class="list btn btn-primary" data-toggle="modal" data-target="#textModal"><i class="plus fa fa-mobile fa-2x"></i><span class="text">Text list</span></button>
             <button type="submit" class="list btn btn-primary" data-toggle="modal" data-target="#emailModal"><i class="fa fa-envelope-o fa-2x"></i><span class="text">Email list</span></button>
+          </div>
+          <div class="modal fade" id="textModal">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Text Shopping List</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="name">Enter your mobile number</label>
+                        <input type="phone" class="form-control" id="phone">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Text list</button>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -345,7 +369,7 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <div>
-            <button type="submit" class="list btn btn-primary"><i class="plus fa fa-mobile fa-2x"></i><span class="text">Text list</span></button>
+            <button type="submit" class="list btn btn-primary" data-toggle="modal" data-target="#textModal"><i class="plus fa fa-mobile fa-2x"></i><span class="text">Text list</span></button>
             <button type="submit" class="list btn btn-primary" data-toggle="modal" data-target="#emailModal"><i class="fa fa-envelope-o fa-2x"></i><span class="text">Email list</span></button>
           </div>
         </div>
