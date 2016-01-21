@@ -10,3 +10,5 @@ Modal for user sign up
 
 Shopping Lists created for users
 ![alt tag](https://raw.githubusercontent.com/alvajc/Ads/master/images/screenshots/Ads4.png)
+
+Created using Javascript, Bootstrap, CSS3 and HTML 5
