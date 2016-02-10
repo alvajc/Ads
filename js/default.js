@@ -1,4 +1,3 @@
-//-----search
 var searchResults = document.getElementById('searchresults')
 
 function showSearchResults() {
@@ -8,4 +7,3 @@ function showSearchResults() {
 var searchButton = document.getElementById('searchbutton')
 
 searchButton.addEventListener('click', showSearchResults, false);
-
