@@ -1,0 +1,27 @@
+{
+  "name": "ads",
+  "version": "1.0.0",
+  "engines": {
+    "node": "5.4.1",
+    "npm": "3.3.12"
+  },
+  "description": "Ad comparison site for shoppers who want to save on their groceries ![alt tag](https://raw.githubusercontent.com/alvajc/Ads/master/images/screenshots/Ads1.png)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvajc/Ads.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvajc/Ads/issues"
+  },
+  "homepage": "https://github.com/alvajc/Ads#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
